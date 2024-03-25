@@ -1,0 +1,54 @@
+.banner_main {
+    background: linear-gradient(to right, rgb(233, 231, 231), darkgray);
+    height: 740px;
+}
+
+.banner_left img {
+    padding-top: 100px;
+    height: 600px;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img_one img {
+    margin-top: 90px;
+}
+
+.banner_right h3 {
+    font-family: "Roboto", sans-serif;
+    color: rgb(65, 64, 64);
+    font-size: 16px;
+    padding-left: 225px;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px white;
+}
+
+
+.img_two {
+    margin-left: 170px;
+    padding-top: 5px;
+}
+
+.img_two img {
+    height: 35px;
+}
+
+.banner_right h3::after {
+    content: "";
+    position: absolute;
+    height: 19px;
+    width: 2px;
+    background-color: black;
+}
+
+
+.banner_right p {
+    font-family: "Roboto", sans-serif;
+    color: rgb(35, 35, 35);
+    font-size: 17px;
+    margin-left: -30px;
+    line-height: 17px;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px white;
+    text-align: center;
+}
